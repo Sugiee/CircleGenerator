@@ -45,7 +45,7 @@ class circularArc{
 //------------------------------------------------------------------------------------------------------------------------
 int main() {
     float origin[2] = {1,1};    // store origin coordinates in array
-    circularArc<float>plotObject(origin, 1,1);  // create object and initialise
+    circularArc<float>plotObject(origin, 1,1);  // create object and initialise (origin, radius, angle)
     plot(plotObject);   // call template function that contains ability to call functor and print values
 
     return 0;
